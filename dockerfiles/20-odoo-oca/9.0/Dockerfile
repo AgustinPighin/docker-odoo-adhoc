@@ -1,5 +1,5 @@
-FROM adhoc/odoo-base:9.0
-MAINTAINER Juan Jose Scarafia <jjs@adhoc.com.ar>
+FROM agustinpighin/odoo-base:9.0
+MAINTAINER Agustin Pighin <agustinpighin@gmail.com>
 
 USER root
 
