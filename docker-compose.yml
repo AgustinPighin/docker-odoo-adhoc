@@ -14,7 +14,7 @@ services:
         #     dockerfile: Dockerfile-dev-$ODOO_VERSION
         # TODO ver como hacemos par que esto se cambie desde otro lugar
         image: $ODOO_IMAGE:$ODOO_VERSION
-        srestart: always
+        restart: always
         external_links:
             - aeroo:aeroo
         depends_on:
@@ -32,6 +32,8 @@ services:
         environment:
             - VIRTUAL_HOST=odoo0.local
             - VIRTUAL_PORT=8069
+
+
 
 #dependency: nginx-proxy must be running before and must create this network
 #networks:
