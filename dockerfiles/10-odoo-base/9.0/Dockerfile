@@ -47,6 +47,9 @@ RUN pip install simplejson
 RUN apt-get install -y swig libffi-dev libssl-dev python-m2crypto python-httplib2
 # este deberiamos borrarlo porque tarda, es para pyOpenSSL que no deberia ser necesario si usamos pyafipws
 
+# odoo-saas (para pycurl)
+RUN apt-get install -y libcurl4-openssl-dev parallel
+
 # aeroo direct print
 RUN apt-get install -y libcups2-dev
 
@@ -100,7 +103,9 @@ ENV \
     ODOO_SERVER=odoo.py \
     ODOO_CONF=/opt/odoo/etc/odoo.conf \
     FIXDBS=False \
+    PG_MAX_CONNECTIONS=100 \
     # odoo conf variables
+    MAX_CRON_THREADS=1 \
     SMTP_SERVER=localhost \
     SMTP_PORT=25 \
     SMTP_SSL=False \
