@@ -2,7 +2,6 @@ https://github.com/ingadhoc/aeroo_reports -b 9.0, ingadhoc-aeroo_reports
 https://github.com/ingadhoc/odoo-support -b 9.0, ingadhoc-odoo-support
 https://github.com/ingadhoc/odoo-argentina -b 9.0, ingadhoc-odoo-argentina
 https://github.com/ingadhoc/odoo-infrastructure -b 9.0, ingadhoc-odoo-infrastructure
-https://github.com/ingadhoc/argentina-reporting -b 9.0, ingadhoc-argentina-reporting
 https://github.com/ingadhoc/argentina-sale -b 9.0, ingadhoc-argentina-sale
 https://github.com/ingadhoc/odoo-web -b 9.0, ingadhoc-odoo-web
 https://github.com/ingadhoc/website -b 9.0, ingadhoc-website
@@ -31,3 +30,6 @@ https://github.com/ingadhoc/odoo-academic -b 9.0, ingadhoc-odoo-academic
 https://github.com/AgustinPighin/artarad_theme_v9  artarad_theme_v9
 https://github.com/AgustinPighin/product-attribute -b 9.0,  AgustinPighin-product-attribute
 https://github.com/thinkopensolutions/tko-addons -b 9.0, thinkopensolutions-tko-addons
+
+https://github.com/AgustinPighin/argentina-reporting.git -b 9.0, AgustinPighin-argentina-reporting
+#https://github.com/ingadhoc/argentina-reporting -b 9.0, ingadhoc-argentina-reporting
