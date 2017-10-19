@@ -22,6 +22,8 @@ services:
         ports:
             - "8069:8069"
             - "8072:8072"
+            - "3500:3500"
+            - "6479:6479"
         volumes:
             - ./data/custom-addons:/opt/odoo/custom-addons
             - odoo_data:/opt/odoo/data

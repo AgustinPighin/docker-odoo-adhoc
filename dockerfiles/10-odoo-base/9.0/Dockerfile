@@ -36,12 +36,15 @@ RUN pip install psycogreen
 ## Install pip dependencies for adhoc used odoo repositories
 RUN pip install openupgradelib
 
+
 # used by many pip packages
 RUN apt-get install -y python-dev build-essential
 
 # odoo-extra
 RUN apt-get install -y python-matplotlib font-manager
 RUN pip install simplejson
+
+RUN pip install ptvsd
 
 # odoo argentina (nuevo modulo de FE)
 RUN apt-get install -y swig libffi-dev libssl-dev python-m2crypto python-httplib2
