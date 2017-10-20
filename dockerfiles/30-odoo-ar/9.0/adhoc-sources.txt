@@ -27,9 +27,7 @@ https://github.com/ingadhoc/patches -b 9.0, ingadhoc-patches
 https://github.com/ingadhoc/demo -b 9.0, ingadhoc-demo
 https://github.com/ingadhoc/odoo-public-administration -b 9.0, ingadhoc-odoo-public-administration
 https://github.com/ingadhoc/odoo-academic -b 9.0, ingadhoc-odoo-academic
-https://github.com/AgustinPighin/artarad_theme_v9  artarad_theme_v9
 https://github.com/AgustinPighin/product-attribute -b 9.0,  AgustinPighin-product-attribute
 https://github.com/thinkopensolutions/tko-addons -b 9.0, thinkopensolutions-tko-addons
-
 https://github.com/AgustinPighin/argentina-reporting.git -b 9.0, AgustinPighin-argentina-reporting
 #https://github.com/ingadhoc/argentina-reporting -b 9.0, ingadhoc-argentina-reporting
