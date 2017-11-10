@@ -13,9 +13,7 @@ https://github.com/OCA/knowledge -b 9.0, oca-knowledge
 https://github.com/OCA/manufacture -b 9.0, oca-manufacture
 https://github.com/OCA/margin-analysis -b 9.0, oca-margin-analysis
 https://github.com/OCA/crm -b 9.0, oca-crm
-https://github.com/OCA/rma -b 9.0, oca-rma
 https://github.com/OCA/hr -b 9.0, oca-hr
-https://github.com/OCA/hr-timesheet -b 9.0, oca-hr-timesheet
 https://github.com/OCA/commission -b 9.0, oca-commission
 https://github.com/OCA/report-print-send -b 9.0, oca-report-print-send
 https://github.com/OCA/account-payment -b 9.0, oca-account-payment
@@ -28,9 +26,11 @@ https://github.com/OCA/partner-contact -b 9.0, oca-partner-contact
 https://github.com/OCA/management-system -b 9.0, oca-management-system
 https://github.com/OCA/e-commerce -b 9.0, oca-e-commerce
 https://github.com/OCA/project -b 9.0, oca-project
+https://github.com/OCA/web -b 9.0, oca-web
 # IMPORTANTE! nuestro script no sabe leer comentarios por lo cual todo esto tiene que ir al final si no se corta en el medio
 #por el parche lo clonamos desde dockerfile porque necesitamos el tree
-#https://github.com/OCA/web -b 9.0, oca-web
+#https://github.com/OCA/rma -b 9.0, oca-rma
+#https://github.com/OCA/hr-timesheet -b 9.0, oca-hr-timesheet
 # NO los usamos mas
 #https://github.com/OCA/connector -b 9.0, oca-connector
 #https://github.com/OCA/connector-interfaces -b 9.0, oca-connector-interfaces
