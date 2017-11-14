@@ -44,6 +44,8 @@ RUN apt-get install -y python-dev build-essential
 RUN apt-get install -y python-matplotlib font-manager
 RUN pip install simplejson
 
+RUN pip install xlrd
+
 RUN pip install ptvsd
 
 # odoo argentina (nuevo modulo de FE)
