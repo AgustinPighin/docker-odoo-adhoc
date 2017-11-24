@@ -16,7 +16,6 @@ https://github.com/OCA/crm -b 9.0, oca-crm
 https://github.com/OCA/hr -b 9.0, oca-hr
 https://github.com/OCA/commission -b 9.0, oca-commission
 https://github.com/OCA/report-print-send -b 9.0, oca-report-print-send
-https://github.com/OCA/account-payment -b 9.0, oca-account-payment
 https://github.com/OCA/social -b 9.0, oca-social
 https://github.com/OCA/account-analytic -b 9.0, oca-account-analytic
 https://github.com/OCA/website -b 9.0, oca-website
@@ -34,3 +33,4 @@ https://github.com/OCA/web -b 9.0, oca-web
 # NO los usamos mas
 #https://github.com/OCA/connector -b 9.0, oca-connector
 #https://github.com/OCA/connector-interfaces -b 9.0, oca-connector-interfaces
+#https://github.com/OCA/account-payment -b 9.0, oca-account-payment
