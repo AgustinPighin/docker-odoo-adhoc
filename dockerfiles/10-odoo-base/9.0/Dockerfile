@@ -48,7 +48,7 @@ RUN pip install xlrd
 
 RUN pip install ptvsd==3.0.0
 
-RUN apt-get install nmap
+#RUN apt-get install nmap
 
 # odoo argentina (nuevo modulo de FE)
 RUN apt-get install -y swig libffi-dev libssl-dev python-m2crypto python-httplib2
