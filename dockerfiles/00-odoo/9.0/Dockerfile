@@ -1,5 +1,6 @@
 FROM ubuntu:xenial
-MAINTAINER Marcos Agustin Pighin <agustinpighin@gmail.com>
+#MAINTAINER Agustin Pighin <agustinpighin@gmail.com>
+LABEL maintainer="agustinpighin@gmail.com"
 
 # segun odoo esta version sigue siendo la recomendable https://github.com/odoo/odoo/wiki/Wkhtmltopdf, la 12.2.1 y las podemos encontrar acá https://wkhtmltopdf.org/downloads.html
 

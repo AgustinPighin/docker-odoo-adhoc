@@ -1,5 +1,6 @@
 FROM agustinpighin/odoo-ubuntu:9.0
-MAINTAINER Agustin Pighin <agustinpighin@gmail.com>
+#MAINTAINER Agustin Pighin <agustinpighin@gmail.com>
+LABEL maintainer="agustinpighin@gmail.com"
 
 USER root
 
@@ -126,10 +127,7 @@ ENV \
     ADMIN_PASSWORD=admin \
     SERVER_MODE=test \
     DISABLE_SESSION_GC=false \
-<<<<<<< HEAD
-=======
     FILESTORE_OPERATIONS_THREADS=3 \
->>>>>>> adhoc_master
     PROXY_MODE=True \
     WITHOUT_DEMO=True \
     DBFILTER=.* \
