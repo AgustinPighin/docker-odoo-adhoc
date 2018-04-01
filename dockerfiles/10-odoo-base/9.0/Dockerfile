@@ -34,7 +34,7 @@ RUN apt-get install -y python-gevent
 RUN pip install psycogreen
 
 ## Install pip dependencies for adhoc used odoo repositories
-#RUN pip install openupgradelib
+# RUN pip install openupgradelib
 RUN pip install git+https://github.com/OCA/openupgradelib/@master
 
 # used by many pip packages
@@ -126,6 +126,10 @@ ENV \
     ADMIN_PASSWORD=admin \
     SERVER_MODE=test \
     DISABLE_SESSION_GC=false \
+<<<<<<< HEAD
+=======
+    FILESTORE_OPERATIONS_THREADS=3 \
+>>>>>>> adhoc_master
     PROXY_MODE=True \
     WITHOUT_DEMO=True \
     DBFILTER=.* \
