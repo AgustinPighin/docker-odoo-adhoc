@@ -1,4 +1,4 @@
-FROM agustinpighin/odoo-base:9.0
+FROM local/odoo-base:9.0
 #MAINTAINER Agustin Pighin <agustinpighin@gmail.com>
 LABEL maintainer="agustinpighin@gmail.com"
 
