@@ -24,6 +24,7 @@ services:
             - "8072:8072"
             - "3500:3500"
             - "6479:6479"
+            - "5678:5678"
         volumes:
             - ./data/custom-addons:/opt/odoo/custom-addons
             - odoo_data:/opt/odoo/data
