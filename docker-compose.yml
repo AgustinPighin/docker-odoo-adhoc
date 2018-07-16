@@ -26,6 +26,8 @@ services:
             - "6479:6479"
         volumes:
             - ./data/custom-addons:/opt/odoo/custom-addons
+            - ./data/odoo/backups:/var/odoo/backups/
+            - ./data/odoo/backups/syncked:/var/odoo/backups/syncked
             - odoo_data:/opt/odoo/data
         env_file:
             - .env
