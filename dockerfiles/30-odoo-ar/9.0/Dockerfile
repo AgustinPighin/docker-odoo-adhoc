@@ -1,4 +1,4 @@
-FROM local/odoo-oca:9.0
+FROM agustinpighin/odoo-oca:9.0
 #MAINTAINER Agustin Pighin <agustinpighin@gmail.com>
 LABEL maintainer="agustinpighin@gmail.com"
 
