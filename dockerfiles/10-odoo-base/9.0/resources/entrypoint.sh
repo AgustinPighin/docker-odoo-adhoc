@@ -34,16 +34,6 @@ if [ "$UNACCENT" != "True" ]; then
     UNACCENT=False
 fi
 
-# get DB max connections, if you set workers, each worker can have db_maxconn, and total connectios need to be less than PG_MAX_CONNECTIONS
-# by default postgres allow 100
-#PG_MAX_CONNECTIONS=100
-if (($WORKERS > 0)); then
-    DB_MAXCONN=`expr $PG_MAX_CONNECTIONS / $WORKERS`
-fi
-if (($WORKERS <= 0)); then
-    DB_MAXCONN=32
-fi
-
 # empezó a darnos error si no pasamos esto, algo con el view.rng, sin , al final para que no cargue / como path
 ODOO_ADDONS="/usr/lib/python2.7/dist-packages/openerp/addons"
 # por error con upgrades que dice que esta mal este dir, probamos sacarlo "/opt/odoo/data/addons/9.0"
@@ -62,6 +52,7 @@ max_cron_threads = $MAX_CRON_THREADS
 db_user = $PGUSER
 db_password = $PGPASSWORD
 db_host = $PGHOST
+db_port = $PGPORT
 db_template = $DB_TEMPLATE
 admin_passwd = $ADMIN_PASSWORD
 data_dir = $DATA_DIR
