@@ -48,7 +48,11 @@ RUN pip install simplejson
 RUN pip install xlrd
 
 RUN pip install ptvsd==3.0.0
-
+RUN pip install ofxparse
+RUN pip install pyserial
+RUN pip install python-chart
+RUN pip install pyusb>=1.0.0b1
+RUN pip install qrcode
 #RUN apt-get install nmap
 
 # odoo argentina (nuevo modulo de FE)
@@ -111,7 +115,7 @@ ENV \
     ODOO_SERVER=odoo.py \
     ODOO_CONF=/opt/odoo/etc/odoo.conf \
     FIXDBS=False \
-    PG_MAX_CONNECTIONS=100 \
+    DB_MAXCONN=64 \
     # odoo conf variables
     MAX_CRON_THREADS=1 \
     SMTP_SERVER=localhost \
@@ -123,6 +127,7 @@ ENV \
     PGUSER=odoo \
     PGPASSWORD=odoo \
     PGHOST=db \
+    PGPORT=5432 \
     WORKERS=6 \
     ADMIN_PASSWORD=admin \
     SERVER_MODE=test \
