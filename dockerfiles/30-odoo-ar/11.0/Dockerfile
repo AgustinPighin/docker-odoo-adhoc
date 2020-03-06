@@ -1,13 +1,16 @@
-FROM adhoc/odoo-oca:11.0
+FROM local/odoo-oca:11.0
 MAINTAINER Juan Jose Scarafia <jjs@adhoc.com.ar>
 
 USER root
 
+RUN apt-get update  -y 
+RUN apt-get install -y swig libcups2-dev
+
 # Get repositories & add files
 WORKDIR ${RESOURCES}
 COPY ./adhoc-sources.txt ./
-RUN mkdir -p ${EXTRA_ADDONS}
-RUN python3 get_addons.py ${EXTRA_ADDONS} --depth=1 --sources_file=adhoc-sources.txt
+#RUN mkdir -p ${}
+RUN python3 get_addons.py ${SOURCES}/repositories --depth=1 --sources_file=adhoc-sources.txt
 WORKDIR /
 
 # para pyafipws
