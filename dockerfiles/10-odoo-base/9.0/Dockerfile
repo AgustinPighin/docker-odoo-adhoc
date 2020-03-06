@@ -43,10 +43,9 @@ RUN apt-get install -y python-dev build-essential
 
 # odoo-extra
 RUN apt-get install -y python-matplotlib font-manager
+
 RUN pip install simplejson
-
 RUN pip install xlrd
-
 RUN pip install ptvsd==3.0.0
 RUN pip install ofxparse
 RUN pip install pyserial
