@@ -1,5 +1,5 @@
-FROM local/odoo-oca:11.0
-MAINTAINER Juan Jose Scarafia <jjs@adhoc.com.ar>
+FROM agustinpighin//odoo-oca:11.0
+MAINTAINER Agustin Pighin <agustinpighin@gmail.com>
 
 USER root
 
