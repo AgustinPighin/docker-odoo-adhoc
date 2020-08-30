@@ -1,1 +1,4 @@
+.DS_Store
 /data/custom-addons
+/data
+/data/.DS_Store
