@@ -1,4 +1,6 @@
-/data/custom-addons
+.DS_Store
+/data/
+data/custom-addons
 data/
 data/odoo/
 

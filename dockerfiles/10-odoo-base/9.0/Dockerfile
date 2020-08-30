@@ -43,6 +43,7 @@ RUN apt-get install -y python-dev build-essential
 
 # odoo-extra
 RUN apt-get install -y python-matplotlib font-manager
+
 RUN pip install simplejson
 RUN pip install xlrd
 RUN pip install ptvsd==3.0.0
@@ -51,7 +52,6 @@ RUN pip install pyserial
 RUN pip install python-chart
 RUN pip install pyusb>=1.0.0b1
 RUN pip install qrcode
-
 #RUN apt-get install nmap
 
 # odoo argentina (nuevo modulo de FE)
