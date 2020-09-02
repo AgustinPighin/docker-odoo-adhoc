@@ -8,6 +8,7 @@ services:
             - POSTGRES_PASSWORD=odoo
         volumes:
             - pg_data:/var/lib/postgresql/data
+            - ./data/pgconf/postgresql.conf:/etc/postgresql/postgresql.conf
     odoo:
         # build:
         #     context: ./data

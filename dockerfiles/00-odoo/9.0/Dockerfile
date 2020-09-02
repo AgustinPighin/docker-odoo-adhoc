@@ -4,7 +4,8 @@ LABEL maintainer="agustinpighin@gmail.com"
 
 # segun odoo esta version sigue siendo la recomendable https://github.com/odoo/odoo/wiki/Wkhtmltopdf, la 12.2.1 y las podemos encontrar acá https://wkhtmltopdf.org/downloads.html
 
-ENV WKHTMLTOX_X64 https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.trusty_amd64.deb
+
+ENV WKHTMLTOX_X64 https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.trusty_amd64.deb
 
 # esta es la de odoo pero es para jessie y no anduvo
 # ENV WKHTMLTOX_X64 http://nightly.odoo.com/extra/wkhtmltox-0.12.1.2_linux-jessie-amd64.deb
@@ -34,7 +35,7 @@ RUN set -x; \
 ENV ODOO_VERSION 9.0
 # revertimos por error con Unknown path: /base/rng/view.rng y repositorio enterprise no en ultima version
 
-ENV ODOO_RELEASE 20190424
+ENV ODOO_RELEASE 20190401
 
 RUN set -x; \
         curl -o odoo.deb -SL http://nightly.odoo.com/${ODOO_VERSION}/nightly/deb/odoo_${ODOO_VERSION}c.${ODOO_RELEASE}_all.deb \
