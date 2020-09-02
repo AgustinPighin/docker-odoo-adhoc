@@ -4,3 +4,8 @@ data/custom-addons
 data/
 data/odoo/
 
+docker-compose.yml
+latrinidad.zip
+piplist.txt
+postgresql.conf.sample
+docker-compose.yml

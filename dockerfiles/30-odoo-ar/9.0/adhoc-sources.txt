@@ -1,4 +1,5 @@
-https://github.com/ingadhoc/aeroo_reports -b 9.0, ingadhoc-aeroo_reports
+
+https://github.com/AgustinPighin/aeroo_reports -b 9.0, ingadhoc-aeroo_reports
 https://github.com/ingadhoc/odoo-support -b 9.0, ingadhoc-odoo-support
 https://github.com/ingadhoc/odoo-argentina -b 9.0, ingadhoc-odoo-argentina
 https://github.com/ingadhoc/odoo-infrastructure -b 9.0, ingadhoc-odoo-infrastructure
