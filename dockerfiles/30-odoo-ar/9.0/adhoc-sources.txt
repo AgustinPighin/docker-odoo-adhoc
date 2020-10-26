@@ -30,4 +30,3 @@ https://github.com/ingadhoc/odoo-academic -b 9.0, ingadhoc-odoo-academic
 https://github.com/AgustinPighin/product-attribute -b 9.0,  AgustinPighin-product-attribute
 https://github.com/thinkopensolutions/tko-addons -b 9.0, thinkopensolutions-tko-addons
 https://github.com/AgustinPighin/argentina-reporting.git -b 9.0, AgustinPighin-argentina-reporting
-#https://github.com/ingadhoc/argentina-reporting -b 9.0, ingadhoc-argentina-reporting

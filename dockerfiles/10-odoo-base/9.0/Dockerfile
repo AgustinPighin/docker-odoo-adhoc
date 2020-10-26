@@ -52,6 +52,7 @@ RUN pip install pyserial
 RUN pip install python-chart
 RUN pip install pyusb>=1.0.0b1
 RUN pip install qrcode
+RUN pip install psycopg2-binary
 #RUN apt-get install nmap
 
 # odoo argentina (nuevo modulo de FE)
